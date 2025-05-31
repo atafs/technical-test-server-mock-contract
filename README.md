@@ -323,7 +323,11 @@ The mock server replicates the Neurolabs API schema. All endpoints require an `A
 
 ## Releases and Notes
 
+### Localhost server
+
 - Task 1: https://github.com/atafs/technical-test-server-mock-contract/releases/tag/task1
+
+- Task2: https://github.com/atafs/technical-test-server-mock-contract/releases/tag/task2
 
 ```
 
