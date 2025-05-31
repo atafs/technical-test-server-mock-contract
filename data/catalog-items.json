@@ -1,16 +1,520 @@
 [
   {
     "id": "item1",
-    "name": "Cola Bottle",
-    "thumbnail": "http://example.com/thumbs/cola.jpg",
+    "name": "Coca-Cola Bottle",
+    "thumbnail": "https://picsum.photos/200/300?random=1",
     "status": "capture",
-    "description": "500ml plastic bottle of cola",
+    "description": "500ml PET bottle of Coca-Cola",
     "category": "beverage",
     "created_at": "2025-05-30T10:00:00Z",
     "updated_at": "2025-05-31T12:00:00Z",
     "metadata": {
-      "sku": "COLA500",
-      "brand": "Generic",
+      "sku": "CC500",
+      "brand": "Coca-Cola",
+      "weight": 500,
+      "dimensions": {
+        "width": 6.5,
+        "height": 25,
+        "depth": 6.5
+      }
+    },
+    "image_count": 12
+  },
+  {
+    "id": "item2",
+    "name": "Lay's Classic Chips",
+    "thumbnail": "https://picsum.photos/200/300?random=2",
+    "status": "active",
+    "description": "150g packet of Lay's Classic potato chips",
+    "category": "snack",
+    "created_at": "2025-05-29T09:00:00Z",
+    "updated_at": "2025-05-30T11:00:00Z",
+    "metadata": {
+      "sku": "LAYS150",
+      "brand": "Lay's",
+      "weight": 150,
+      "dimensions": {
+        "width": 20,
+        "height": 30,
+        "depth": 5
+      }
+    },
+    "image_count": 8
+  },
+  {
+    "id": "item3",
+    "name": "Pepsi Can",
+    "thumbnail": "https://picsum.photos/200/300?random=3",
+    "status": "inactive",
+    "description": "330ml aluminum can of Pepsi",
+    "category": "beverage",
+    "created_at": "2025-05-28T08:00:00Z",
+    "updated_at": "2025-05-29T10:00:00Z",
+    "metadata": {
+      "sku": "PEPSI330",
+      "brand": "Pepsi",
+      "weight": 350,
+      "dimensions": {
+        "width": 6,
+        "height": 12,
+        "depth": 6
+      }
+    },
+    "image_count": 10
+  },
+  {
+    "id": "item4",
+    "name": "Doritos Nacho Cheese",
+    "thumbnail": "https://picsum.photos/200/300?random=4",
+    "status": "capture",
+    "description": "200g bag of Doritos Nacho Cheese tortilla chips",
+    "category": "snack",
+    "created_at": "2025-05-27T07:00:00Z",
+    "updated_at": "2025-05-28T09:00:00Z",
+    "metadata": {
+      "sku": "DOR200",
+      "brand": "Doritos",
+      "weight": 200,
+      "dimensions": {
+        "width": 22,
+        "height": 32,
+        "depth": 6
+      }
+    },
+    "image_count": 9
+  },
+  {
+    "id": "item5",
+    "name": "Sprite Bottle",
+    "thumbnail": "https://picsum.photos/200/300?random=5",
+    "status": "active",
+    "description": "500ml PET bottle of Sprite",
+    "category": "beverage",
+    "created_at": "2025-05-26T06:00:00Z",
+    "updated_at": "2025-05-27T08:00:00Z",
+    "metadata": {
+      "sku": "SPRITE500",
+      "brand": "Sprite",
+      "weight": 500,
+      "dimensions": {
+        "width": 6.5,
+        "height": 25,
+        "depth": 6.5
+      }
+    },
+    "image_count": 11
+  },
+  {
+    "id": "item6",
+    "name": "Pringles Original",
+    "thumbnail": "https://picsum.photos/200/300?random=6",
+    "status": "inactive",
+    "description": "165g can of Pringles Original chips",
+    "category": "snack",
+    "created_at": "2025-05-25T05:00:00Z",
+    "updated_at": "2025-05-26T07:00:00Z",
+    "metadata": {
+      "sku": "PRING165",
+      "brand": "Pringles",
+      "weight": 165,
+      "dimensions": {
+        "width": 8,
+        "height": 25,
+        "depth": 8
+      }
+    },
+    "image_count": 7
+  },
+  {
+    "id": "item7",
+    "name": "Fanta Orange Can",
+    "thumbnail": "https://picsum.photos/200/300?random=7",
+    "status": "capture",
+    "description": "330ml aluminum can of Fanta Orange",
+    "category": "beverage",
+    "created_at": "2025-05-24T04:00:00Z",
+    "updated_at": "2025-05-25T06:00:00Z",
+    "metadata": {
+      "sku": "FANTA330",
+      "brand": "Fanta",
+      "weight": 350,
+      "dimensions": {
+        "width": 6,
+        "height": 12,
+        "depth": 6
+      }
+    },
+    "image_count": 10
+  },
+  {
+    "id": "item8",
+    "name": "Oreo Cookies",
+    "thumbnail": "https://picsum.photos/200/300?random=8",
+    "status": "active",
+    "description": "154g pack of Oreo chocolate sandwich cookies",
+    "category": "snack",
+    "created_at": "2025-05-23T03:00:00Z",
+    "updated_at": "2025-05-24T05:00:00Z",
+    "metadata": {
+      "sku": "OREO154",
+      "brand": "Oreo",
+      "weight": 154,
+      "dimensions": {
+        "width": 15,
+        "height": 5,
+        "depth": 5
+      }
+    },
+    "image_count": 6
+  },
+  {
+    "id": "item9",
+    "name": "Red Bull Energy Drink",
+    "thumbnail": "https://picsum.photos/200/300?random=9",
+    "status": "inactive",
+    "description": "250ml can of Red Bull energy drink",
+    "category": "beverage",
+    "created_at": "2025-05-22T02:00:00Z",
+    "updated_at": "2025-05-23T04:00:00Z",
+    "metadata": {
+      "sku": "REDBULL250",
+      "brand": "Red Bull",
+      "weight": 270,
+      "dimensions": {
+        "width": 5.5,
+        "height": 13.5,
+        "depth": 5.5
+      }
+    },
+    "image_count": 9
+  },
+  {
+    "id": "item10",
+    "name": "Cheetos Puffs",
+    "thumbnail": "https://picsum.photos/200/300?random=10",
+    "status": "capture",
+    "description": "255g bag of Cheetos Puffs cheese snacks",
+    "category": "snack",
+    "created_at": "2025-05-21T01:00:00Z",
+    "updated_at": "2025-05-22T03:00:00Z",
+    "metadata": {
+      "sku": "CHEET255",
+      "brand": "Cheetos",
+      "weight": 255,
+      "dimensions": {
+        "width": 25,
+        "height": 35,
+        "depth": 7
+      }
+    },
+    "image_count": 8
+  },
+  {
+    "id": "item11",
+    "name": "Evian Water Bottle",
+    "thumbnail": "https://picsum.photos/200/300?random=11",
+    "status": "active",
+    "description": "1L PET bottle of Evian natural mineral water",
+    "category": "beverage",
+    "created_at": "2025-05-20T00:00:00Z",
+    "updated_at": "2025-05-21T02:00:00Z",
+    "metadata": {
+      "sku": "EVIAN1000",
+      "brand": "Evian",
+      "weight": 1000,
+      "dimensions": {
+        "width": 8,
+        "height": 30,
+        "depth": 8
+      }
+    },
+    "image_count": 10
+  },
+  {
+    "id": "item12",
+    "name": "KitKat Bar",
+    "thumbnail": "https://picsum.photos/200/300?random=12",
+    "status": "inactive",
+    "description": "45g KitKat chocolate wafer bar",
+    "category": "snack",
+    "created_at": "2025-05-19T23:00:00Z",
+    "updated_at": "2025-05-20T01:00:00Z",
+    "metadata": {
+      "sku": "KITKAT45",
+      "brand": "KitKat",
+      "weight": 45,
+      "dimensions": {
+        "width": 10,
+        "height": 2,
+        "depth": 1
+      }
+    },
+    "image_count": 5
+  },
+  {
+    "id": "item13",
+    "name": "Mountain Dew Bottle",
+    "thumbnail": "https://picsum.photos/200/300?random=13",
+    "status": "capture",
+    "description": "500ml PET bottle of Mountain Dew",
+    "category": "beverage",
+    "created_at": "2025-05-18T22:00:00Z",
+    "updated_at": "2025-05-19T00:00:00Z",
+    "metadata": {
+      "sku": "MTDEW500",
+      "brand": "Mountain Dew",
+      "weight": 500,
+      "dimensions": {
+        "width": 6.5,
+        "height": 25,
+        "depth": 6.5
+      }
+    },
+    "image_count": 11
+  },
+  {
+    "id": "item14",
+    "name": "Snickers Bar",
+    "thumbnail": "https://picsum.photos/200/300?random=14",
+    "status": "active",
+    "description": "50g Snickers chocolate bar",
+    "category": "snack",
+    "created_at": "2025-05-17T21:00:00Z",
+    "updated_at": "2025-05-18T23:00:00Z",
+    "metadata": {
+      "sku": "SNICK50",
+      "brand": "Snickers",
+      "weight": 50,
+      "dimensions": {
+        "width": 12,
+        "height": 3,
+        "depth": 2
+      }
+    },
+    "image_count": 6
+  },
+  {
+    "id": "item15",
+    "name": "Gatorade Lemon-Lime",
+    "thumbnail": "https://picsum.photos/200/300?random=15",
+    "status": "inactive",
+    "description": "600ml bottle of Gatorade Lemon-Lime",
+    "category": "beverage",
+    "created_at": "2025-05-16T20:00:00Z",
+    "updated_at": "2025-05-17T22:00:00Z",
+    "metadata": {
+      "sku": "GATOR600",
+      "brand": "Gatorade",
+      "weight": 600,
+      "dimensions": {
+        "width": 7,
+        "height": 27,
+        "depth": 7
+      }
+    },
+    "image_count": 10
+  },
+  {
+    "id": "item16",
+    "name": "M&M's Peanut",
+    "thumbnail": "https://picsum.photos/200/300?random=16",
+    "status": "capture",
+    "description": "100g bag of M&M's Peanut candies",
+    "category": "snack",
+    "created_at": "2025-05-15T19:00:00Z",
+    "updated_at": "2025-05-16T21:00:00Z",
+    "metadata": {
+      "sku": "MM100",
+      "brand": "M&M's",
+      "weight": 100,
+      "dimensions": {
+        "width": 15,
+        "height": 20,
+        "depth": 3
+      }
+    },
+    "image_count": 7
+  },
+  {
+    "id": "item17",
+    "name": "Lipton Iced Tea",
+    "thumbnail": "https://picsum.photos/200/300?random=17",
+    "status": "active",
+    "description": "500ml bottle of Lipton Peach Iced Tea",
+    "category": "beverage",
+    "created_at": "2025-05-14T18:00:00Z",
+    "updated_at": "2025-05-15T20:00:00Z",
+    "metadata": {
+      "sku": "LIPTON500",
+      "brand": "Lipton",
+      "weight": 500,
+      "dimensions": {
+        "width": 6.5,
+        "height": 25,
+        "depth": 6.5
+      }
+    },
+    "image_count": 9
+  },
+  {
+    "id": "item18",
+    "name": "Twix Bar",
+    "thumbnail": "https://picsum.photos/200/300?random=18",
+    "status": "inactive",
+    "description": "50g Twix chocolate caramel bar",
+    "category": "snack",
+    "created_at": "2025-05-13T17:00:00Z",
+    "updated_at": "2025-05-14T19:00:00Z",
+    "metadata": {
+      "sku": "TWIX50",
+      "brand": "Twix",
+      "weight": 50,
+      "dimensions": {
+        "width": 12,
+        "height": 3,
+        "depth": 2
+      }
+    },
+    "image_count": 6
+  },
+  {
+    "id": "item19",
+    "name": "San Pellegrino Sparkling Water",
+    "thumbnail": "https://picsum.photos/200/300?random=19",
+    "status": "capture",
+    "description": "750ml bottle of San Pellegrino sparkling water",
+    "category": "beverage",
+    "created_at": "2025-05-12T16:00:00Z",
+    "updated_at": "2025-05-13T18:00:00Z",
+    "metadata": {
+      "sku": "SANPEL750",
+      "brand": "San Pellegrino",
+      "weight": 750,
+      "dimensions": {
+        "width": 7.5,
+        "height": 28,
+        "depth": 7.5
+      }
+    },
+    "image_count": 10
+  },
+  {
+    "id": "item20",
+    "name": "Skittles Original",
+    "thumbnail": "https://picsum.photos/200/300?random=20",
+    "status": "active",
+    "description": "125g bag of Skittles Original candies",
+    "category": "snack",
+    "created_at": "2025-05-11T15:00:00Z",
+    "updated_at": "2025-05-12T17:00:00Z",
+    "metadata": {
+      "sku": "SKIT125",
+      "brand": "Skittles",
+      "weight": 125,
+      "dimensions": {
+        "width": 15,
+        "height": 20,
+        "depth": 3
+      }
+    },
+    "image_count": 7
+  },
+  {
+    "id": "item21",
+    "name": "Dr Pepper Can",
+    "thumbnail": "https://picsum.photos/200/300?random=21",
+    "status": "inactive",
+    "description": "330ml aluminum can of Dr Pepper",
+    "category": "beverage",
+    "created_at": "2025-05-10T14:00:00Z",
+    "updated_at": "2025-05-11T16:00:00Z",
+    "metadata": {
+      "sku": "DRPEP330",
+      "brand": "Dr Pepper",
+      "weight": 350,
+      "dimensions": {
+        "width": 6,
+        "height": 12,
+        "depth": 6
+      }
+    },
+    "image_count": 10
+  },
+  {
+    "id": "item22",
+    "name": "Reese's Peanut Butter Cups",
+    "thumbnail": "https://picsum.photos/200/300?random=22",
+    "status": "capture",
+    "description": "42g pack of Reese's Peanut Butter Cups",
+    "category": "snack",
+    "created_at": "2025-05-09T13:00:00Z",
+    "updated_at": "2025-05-10T15:00:00Z",
+    "metadata": {
+      "sku": "REESE42",
+      "brand": "Reese's",
+      "weight": 42,
+      "dimensions": {
+        "width": 10,
+        "height": 5,
+        "depth": 2
+      }
+    },
+    "image_count": 5
+  },
+  {
+    "id": "item23",
+    "name": "Monster Energy Drink",
+    "thumbnail": "https://picsum.photos/200/300?random=23",
+    "status": "active",
+    "description": "500ml can of Monster Energy Original",
+    "category": "beverage",
+    "created_at": "2025-05-08T12:00:00Z",
+    "updated_at": "2025-05-09T14:00:00Z",
+    "metadata": {
+      "sku": "MONST500",
+      "brand": "Monster",
+      "weight": 520,
+      "dimensions": {
+        "width": 6.5,
+        "height": 16,
+        "depth": 6.5
+      }
+    },
+    "image_count": 9
+  },
+  {
+    "id": "item24",
+    "name": "Ritz Crackers",
+    "thumbnail": "https://picsum.photos/200/300?random=24",
+    "status": "inactive",
+    "description": "200g box of Ritz Original crackers",
+    "category": "snack",
+    "created_at": "2025-05-07T11:00:00Z",
+    "updated_at": "2025-05-08T13:00:00Z",
+    "metadata": {
+      "sku": "RITZ200",
+      "brand": "Ritz",
+      "weight": 200,
+      "dimensions": {
+        "width": 15,
+        "height": 10,
+        "depth": 5
+      }
+    },
+    "image_count": 8
+  },
+  {
+    "id": "item25",
+    "name": "Aquafina Water Bottle",
+    "thumbnail": "https://picsum.photos/200/300?random=25",
+    "status": "capture",
+    "description": "500ml PET bottle of Aquafina purified water",
+    "category": "beverage",
+    "created_at": "2025-05-06T10:00:00Z",
+    "updated_at": "2025-05-07T12:00:00Z",
+    "metadata": {
+      "sku": "AQUA500",
+      "brand": "Aquafina",
       "weight": 500,
       "dimensions": {
         "width": 6.5,
@@ -21,18 +525,60 @@
     "image_count": 10
   },
   {
-    "id": "item2",
-    "name": "Chips Packet",
-    "thumbnail": "http://example.com/thumbs/chips.jpg",
+    "id": "item26",
+    "name": "Milky Way Bar",
+    "thumbnail": "https://picsum.photos/200/300?random=26",
     "status": "active",
-    "description": "150g packet of salted chips",
+    "description": "52g Milky Way chocolate bar",
     "category": "snack",
-    "created_at": "2025-05-29T09:00:00Z",
-    "updated_at": "2025-05-30T11:00:00Z",
+    "created_at": "2025-05-05T09:00:00Z",
+    "updated_at": "2025-05-06T11:00:00Z",
     "metadata": {
-      "sku": "CHIPS150",
-      "brand": "Crunchy",
-      "weight": 150,
+      "sku": "MILKY52",
+      "brand": "Milky Way",
+      "weight": 52,
+      "dimensions": {
+        "width": 12,
+        "height": 3,
+        "depth": 2
+      }
+    },
+    "image_count": 6
+  },
+  {
+    "id": "item27",
+    "name": "7UP Bottle",
+    "thumbnail": "https://picsum.photos/200/300?random=27",
+    "status": "inactive",
+    "description": "500ml PET bottle of 7UP",
+    "category": "beverage",
+    "created_at": "2025-05-04T08:00:00Z",
+    "updated_at": "2025-05-05T10:00:00Z",
+    "metadata": {
+      "sku": "7UP500",
+      "brand": "7UP",
+      "weight": 500,
+      "dimensions": {
+        "width": 6.5,
+        "height": 25,
+        "depth": 6.5
+      }
+    },
+    "image_count": 11
+  },
+  {
+    "id": "item28",
+    "name": "Goldfish Crackers",
+    "thumbnail": "https://picsum.photos/200/300?random=28",
+    "status": "capture",
+    "description": "187g bag of Goldfish Cheddar crackers",
+    "category": "snack",
+    "created_at": "2025-05-03T07:00:00Z",
+    "updated_at": "2025-05-04T09:00:00Z",
+    "metadata": {
+      "sku": "GOLD187",
+      "brand": "Goldfish",
+      "weight": 187,
       "dimensions": {
         "width": 20,
         "height": 30,
@@ -40,5 +586,47 @@
       }
     },
     "image_count": 8
+  },
+  {
+    "id": "item29",
+    "name": "Starbucks Frappuccino",
+    "thumbnail": "https://picsum.photos/200/300?random=29",
+    "status": "active",
+    "description": "280ml bottle of Starbucks Mocha Frappuccino",
+    "category": "beverage",
+    "created_at": "2025-05-02T06:00:00Z",
+    "updated_at": "2025-05-03T08:00:00Z",
+    "metadata": {
+      "sku": "STARB280",
+      "brand": "Starbucks",
+      "weight": 280,
+      "dimensions": {
+        "width": 6,
+        "height": 20,
+        "depth": 6
+      }
+    },
+    "image_count": 9
+  },
+  {
+    "id": "item30",
+    "name": "Haribo Gummy Bears",
+    "thumbnail": "https://picsum.photos/200/300?random=30",
+    "status": "inactive",
+    "description": "140g bag of Haribo Goldbears gummy candies",
+    "category": "snack",
+    "created_at": "2025-05-01T05:00:00Z",
+    "updated_at": "2025-05-02T07:00:00Z",
+    "metadata": {
+      "sku": "HARIBO140",
+      "brand": "Haribo",
+      "weight": 140,
+      "dimensions": {
+        "width": 15,
+        "height": 20,
+        "depth": 3
+      }
+    },
+    "image_count": 7
   }
 ]

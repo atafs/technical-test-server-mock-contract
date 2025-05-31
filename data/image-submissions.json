@@ -4,5 +4,35 @@
     "task_uuid": "task1",
     "status": "pending",
     "result": null
+  },
+  {
+    "image_id": "img1748703804548",
+    "task_uuid": "task2",
+    "status": "pending",
+    "result": null
+  },
+  {
+    "image_id": "img1748704306749",
+    "task_uuid": "task2",
+    "status": "pending",
+    "result": null
+  },
+  {
+    "image_id": "img1748704658279",
+    "task_uuid": "task2",
+    "status": "pending",
+    "result": null
+  },
+  {
+    "image_id": "img1748704674944",
+    "task_uuid": "task2",
+    "status": "pending",
+    "result": null
+  },
+  {
+    "image_id": "img1748706610551",
+    "task_uuid": "task2",
+    "status": "pending",
+    "result": null
   }
 ]
