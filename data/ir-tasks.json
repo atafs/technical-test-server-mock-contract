@@ -1,0 +1,10 @@
+[
+  {
+    "uuid": "task1",
+    "name": "Beverage Recognition Task"
+  },
+  {
+    "uuid": "task2",
+    "name": "Snack Recognition Task"
+  }
+]

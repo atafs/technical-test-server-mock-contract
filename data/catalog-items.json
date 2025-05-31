@@ -1,0 +1,44 @@
+[
+  {
+    "id": "item1",
+    "name": "Cola Bottle",
+    "thumbnail": "http://example.com/thumbs/cola.jpg",
+    "status": "capture",
+    "description": "500ml plastic bottle of cola",
+    "category": "beverage",
+    "created_at": "2025-05-30T10:00:00Z",
+    "updated_at": "2025-05-31T12:00:00Z",
+    "metadata": {
+      "sku": "COLA500",
+      "brand": "Generic",
+      "weight": 500,
+      "dimensions": {
+        "width": 6.5,
+        "height": 25,
+        "depth": 6.5
+      }
+    },
+    "image_count": 10
+  },
+  {
+    "id": "item2",
+    "name": "Chips Packet",
+    "thumbnail": "http://example.com/thumbs/chips.jpg",
+    "status": "active",
+    "description": "150g packet of salted chips",
+    "category": "snack",
+    "created_at": "2025-05-29T09:00:00Z",
+    "updated_at": "2025-05-30T11:00:00Z",
+    "metadata": {
+      "sku": "CHIPS150",
+      "brand": "Crunchy",
+      "weight": 150,
+      "dimensions": {
+        "width": 20,
+        "height": 30,
+        "depth": 5
+      }
+    },
+    "image_count": 8
+  }
+]
