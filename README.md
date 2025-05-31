@@ -321,6 +321,10 @@ The mock server replicates the Neurolabs API schema. All endpoints require an `A
 - Mock data can be extended by adding entries to `data/*.json`.
 - Tested as of May 31, 2025, 03:54 PM BST.
 
+## Releases and Notes
+
+- Task 1: https://github.com/atafs/technical-test-server-mock-contract/releases/tag/task1
+
 ```
 
 ```
