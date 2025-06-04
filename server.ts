@@ -1,6 +1,10 @@
 import express, { Request, Response } from "express";
 import fs from "fs";
 import path from "path";
+import dotenv from "dotenv";
+
+// Load environment variables from .env
+dotenv.config();
 
 const app = express();
 const PORT = 3001;
@@ -30,8 +34,9 @@ let imageSubmissions = JSON.parse(
 // Mock authentication middleware
 app.use((req: Request, res: Response, next: Function) => {
   const authHeader = req.headers["x-api-key"];
+  const apiKey = process.env.API_KEY;
   console.log(`Received x-api-key: ${authHeader}`); // Debug log
-  if (!authHeader || authHeader !== "test-api-key") {
+  if (!authHeader || !apiKey || authHeader !== apiKey) {
     console.log("Authentication failed: Invalid or missing x-api-key");
     return res.status(401).json({ detail: "Not authorized" });
   }
