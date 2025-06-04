@@ -11,8 +11,14 @@
     "status": "completed",
     "result": {
       "recognized_items": [
-        { "item_id": "item2", "confidence": 0.95 },
-        { "item_id": "item4", "confidence": 0.85 }
+        {
+          "item_id": "item2",
+          "confidence": 0.95
+        },
+        {
+          "item_id": "item4",
+          "confidence": 0.85
+        }
       ]
     }
   },
@@ -34,8 +40,14 @@
     "status": "completed",
     "result": {
       "recognized_items": [
-        { "item_id": "item8", "confidence": 0.9 },
-        { "item_id": "item16", "confidence": 0.8 }
+        {
+          "item_id": "item8",
+          "confidence": 0.9
+        },
+        {
+          "item_id": "item16",
+          "confidence": 0.8
+        }
       ]
     }
   },
@@ -63,8 +75,14 @@
     "status": "completed",
     "result": {
       "recognized_items": [
-        { "item_id": "item14", "confidence": 0.92 },
-        { "item_id": "item20", "confidence": 0.88 }
+        {
+          "item_id": "item14",
+          "confidence": 0.92
+        },
+        {
+          "item_id": "item20",
+          "confidence": 0.88
+        }
       ]
     }
   },
@@ -86,8 +104,14 @@
     "status": "completed",
     "result": {
       "recognized_items": [
-        { "item_id": "item1", "confidence": 0.95 },
-        { "item_id": "item5", "confidence": 0.85 }
+        {
+          "item_id": "item1",
+          "confidence": 0.95
+        },
+        {
+          "item_id": "item5",
+          "confidence": 0.85
+        }
       ]
     }
   },
@@ -121,8 +145,14 @@
     "status": "completed",
     "result": {
       "recognized_items": [
-        { "item_id": "item11", "confidence": 0.93 },
-        { "item_id": "item17", "confidence": 0.87 }
+        {
+          "item_id": "item11",
+          "confidence": 0.93
+        },
+        {
+          "item_id": "item17",
+          "confidence": 0.87
+        }
       ]
     }
   },
@@ -150,8 +180,14 @@
     "status": "completed",
     "result": {
       "recognized_items": [
-        { "item_id": "item10", "confidence": 0.91 },
-        { "item_id": "item28", "confidence": 0.84 }
+        {
+          "item_id": "item10",
+          "confidence": 0.91
+        },
+        {
+          "item_id": "item28",
+          "confidence": 0.84
+        }
       ]
     }
   },
@@ -185,8 +221,14 @@
     "status": "completed",
     "result": {
       "recognized_items": [
-        { "item_id": "item22", "confidence": 0.89 },
-        { "item_id": "item26", "confidence": 0.86 }
+        {
+          "item_id": "item22",
+          "confidence": 0.89
+        },
+        {
+          "item_id": "item26",
+          "confidence": 0.86
+        }
       ]
     }
   },
@@ -220,8 +262,14 @@
     "status": "completed",
     "result": {
       "recognized_items": [
-        { "item_id": "item24", "confidence": 0.9 },
-        { "item_id": "item30", "confidence": 0.85 }
+        {
+          "item_id": "item24",
+          "confidence": 0.9
+        },
+        {
+          "item_id": "item30",
+          "confidence": 0.85
+        }
       ]
     }
   },
@@ -255,8 +303,14 @@
     "status": "completed",
     "result": {
       "recognized_items": [
-        { "item_id": "item6", "confidence": 0.94 },
-        { "item_id": "item12", "confidence": 0.88 }
+        {
+          "item_id": "item6",
+          "confidence": 0.94
+        },
+        {
+          "item_id": "item12",
+          "confidence": 0.88
+        }
       ]
     }
   },
@@ -290,8 +344,14 @@
     "status": "completed",
     "result": {
       "recognized_items": [
-        { "item_id": "item18", "confidence": 0.92 },
-        { "item_id": "item20", "confidence": 0.87 }
+        {
+          "item_id": "item18",
+          "confidence": 0.92
+        },
+        {
+          "item_id": "item20",
+          "confidence": 0.87
+        }
       ]
     }
   },
@@ -325,8 +385,14 @@
     "status": "completed",
     "result": {
       "recognized_items": [
-        { "item_id": "item4", "confidence": 0.93 },
-        { "item_id": "item16", "confidence": 0.89 }
+        {
+          "item_id": "item4",
+          "confidence": 0.93
+        },
+        {
+          "item_id": "item16",
+          "confidence": 0.89
+        }
       ]
     }
   },
@@ -360,8 +426,14 @@
     "status": "completed",
     "result": {
       "recognized_items": [
-        { "item_id": "item8", "confidence": 0.91 },
-        { "item_id": "item28", "confidence": 0.86 }
+        {
+          "item_id": "item8",
+          "confidence": 0.91
+        },
+        {
+          "item_id": "item28",
+          "confidence": 0.86
+        }
       ]
     }
   },
@@ -395,8 +467,14 @@
     "status": "completed",
     "result": {
       "recognized_items": [
-        { "item_id": "item14", "confidence": 0.9 },
-        { "item_id": "item26", "confidence": 0.85 }
+        {
+          "item_id": "item14",
+          "confidence": 0.9
+        },
+        {
+          "item_id": "item26",
+          "confidence": 0.85
+        }
       ]
     }
   },
@@ -430,8 +508,14 @@
     "status": "completed",
     "result": {
       "recognized_items": [
-        { "item_id": "item13", "confidence": 0.94 },
-        { "item_id": "item19", "confidence": 0.88 }
+        {
+          "item_id": "item13",
+          "confidence": 0.94
+        },
+        {
+          "item_id": "item19",
+          "confidence": 0.88
+        }
       ]
     }
   },
@@ -459,8 +543,14 @@
     "status": "completed",
     "result": {
       "recognized_items": [
-        { "item_id": "item22", "confidence": 0.92 },
-        { "item_id": "item30", "confidence": 0.87 }
+        {
+          "item_id": "item22",
+          "confidence": 0.92
+        },
+        {
+          "item_id": "item30",
+          "confidence": 0.87
+        }
       ]
     }
   },
@@ -494,8 +584,14 @@
     "status": "completed",
     "result": {
       "recognized_items": [
-        { "item_id": "item6", "confidence": 0.93 },
-        { "item_id": "item18", "confidence": 0.89 }
+        {
+          "item_id": "item6",
+          "confidence": 0.93
+        },
+        {
+          "item_id": "item18",
+          "confidence": 0.89
+        }
       ]
     }
   },
@@ -529,8 +625,14 @@
     "status": "completed",
     "result": {
       "recognized_items": [
-        { "item_id": "item10", "confidence": 0.91 },
-        { "item_id": "item24", "confidence": 0.86 }
+        {
+          "item_id": "item10",
+          "confidence": 0.91
+        },
+        {
+          "item_id": "item24",
+          "confidence": 0.86
+        }
       ]
     }
   },
@@ -564,8 +666,14 @@
     "status": "completed",
     "result": {
       "recognized_items": [
-        { "item_id": "item12", "confidence": 0.9 },
-        { "item_id": "item20", "confidence": 0.85 }
+        {
+          "item_id": "item12",
+          "confidence": 0.9
+        },
+        {
+          "item_id": "item20",
+          "confidence": 0.85
+        }
       ]
     }
   },
@@ -590,6 +698,24 @@
   {
     "image_id": "img1748712669093",
     "task_uuid": "task2",
+    "status": "pending",
+    "result": null
+  },
+  {
+    "image_id": "img1749065374426",
+    "task_uuid": "task2",
+    "status": "pending",
+    "result": null
+  },
+  {
+    "image_id": "img1749065700737",
+    "task_uuid": "task1",
+    "status": "pending",
+    "result": null
+  },
+  {
+    "image_id": "img1749065765966",
+    "task_uuid": "task1",
     "status": "pending",
     "result": null
   }

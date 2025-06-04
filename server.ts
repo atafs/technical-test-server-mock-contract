@@ -9,6 +9,13 @@ const PORT = 3001;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Log incoming requests
+app.use((req: Request, res: Response, next: Function) => {
+  console.log(`Incoming request: ${req.method} ${req.originalUrl}`);
+  console.log(`Query parameters: ${JSON.stringify(req.query)}`);
+  next();
+});
+
 // Load mock data
 const catalogItems = JSON.parse(
   fs.readFileSync(path.join(__dirname, "data/catalog-items.json"), "utf-8")
@@ -38,7 +45,10 @@ app.get("/v2/catalog-items", (req: Request, res: Response) => {
 
 // GET /v2/image-recognition/tasks
 app.get("/v2/image-recognition/tasks", (req: Request, res: Response) => {
-  res.status(200).json({ items: irTasks });
+  const limit = parseInt(req.query.limit as string) || 50;
+  const offset = parseInt(req.query.offset as string) || 0;
+  const paginatedTasks = irTasks.slice(offset, offset + limit);
+  res.status(200).json({ items: paginatedTasks });
 });
 
 // POST /v2/image-recognition/tasks/{task_uuid}/images
@@ -47,7 +57,7 @@ app.post(
   (req: Request, res: Response) => {
     const { task_uuid } = req.params;
     if (!irTasks.find((task: any) => task.uuid === task_uuid)) {
-      return res.status(404).json({ error: "Task not found" });
+      return res.status(404).json({ detail: "Task not found" });
     }
 
     const imageId = `img${Date.now()}`;
@@ -84,7 +94,8 @@ app.post(
       }
     }, 5000); // 5-second delay to mimic processing
 
-    res.status(200).json(submission);
+    // Return array with image_id to match frontend expectation
+    res.status(200).json([imageId]);
   }
 );
 
@@ -97,11 +108,17 @@ app.get(
       (s: any) => s.image_id === image_id && s.task_uuid === task_uuid
     );
     if (!submission) {
-      return res.status(404).json({ error: "Image submission not found" });
+      return res.status(404).json({ detail: "Image submission not found" });
     }
     res.status(200).json(submission);
   }
 );
+
+// Catch-all for undefined routes
+app.use((req: Request, res: Response) => {
+  console.log(`Route not found: ${req.method} ${req.originalUrl}`);
+  res.status(404).json({ detail: "Not Found" });
+});
 
 // Start the server
 app.listen(PORT, () => {
