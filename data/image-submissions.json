@@ -8,8 +8,13 @@
   {
     "image_id": "img1748703804548",
     "task_uuid": "task2",
-    "status": "pending",
-    "result": null
+    "status": "completed",
+    "result": {
+      "recognized_items": [
+        { "item_id": "item2", "confidence": 0.95 },
+        { "item_id": "item4", "confidence": 0.85 }
+      ]
+    }
   },
   {
     "image_id": "img1748704306749",
@@ -26,8 +31,13 @@
   {
     "image_id": "img1748704674944",
     "task_uuid": "task2",
-    "status": "pending",
-    "result": null
+    "status": "completed",
+    "result": {
+      "recognized_items": [
+        { "item_id": "item8", "confidence": 0.9 },
+        { "item_id": "item16", "confidence": 0.8 }
+      ]
+    }
   },
   {
     "image_id": "img1748706610551",
@@ -50,8 +60,13 @@
   {
     "image_id": "img1748708062100",
     "task_uuid": "task2",
-    "status": "pending",
-    "result": null
+    "status": "completed",
+    "result": {
+      "recognized_items": [
+        { "item_id": "item14", "confidence": 0.92 },
+        { "item_id": "item20", "confidence": 0.88 }
+      ]
+    }
   },
   {
     "image_id": "img1748708335883",
@@ -68,8 +83,13 @@
   {
     "image_id": "img1748708741569",
     "task_uuid": "task1",
-    "status": "pending",
-    "result": null
+    "status": "completed",
+    "result": {
+      "recognized_items": [
+        { "item_id": "item1", "confidence": 0.95 },
+        { "item_id": "item5", "confidence": 0.85 }
+      ]
+    }
   },
   {
     "image_id": "img1748708939870",
@@ -98,8 +118,13 @@
   {
     "image_id": "img1748709118183",
     "task_uuid": "task1",
-    "status": "pending",
-    "result": null
+    "status": "completed",
+    "result": {
+      "recognized_items": [
+        { "item_id": "item11", "confidence": 0.93 },
+        { "item_id": "item17", "confidence": 0.87 }
+      ]
+    }
   },
   {
     "image_id": "img1748709166948",
@@ -122,8 +147,13 @@
   {
     "image_id": "img1748709910867",
     "task_uuid": "task2",
-    "status": "pending",
-    "result": null
+    "status": "completed",
+    "result": {
+      "recognized_items": [
+        { "item_id": "item10", "confidence": 0.91 },
+        { "item_id": "item28", "confidence": 0.84 }
+      ]
+    }
   },
   {
     "image_id": "img1748709935845",
@@ -152,8 +182,13 @@
   {
     "image_id": "img1748709958161",
     "task_uuid": "task2",
-    "status": "pending",
-    "result": null
+    "status": "completed",
+    "result": {
+      "recognized_items": [
+        { "item_id": "item22", "confidence": 0.89 },
+        { "item_id": "item26", "confidence": 0.86 }
+      ]
+    }
   },
   {
     "image_id": "img1748709971409",
@@ -182,8 +217,13 @@
   {
     "image_id": "img1748710081697",
     "task_uuid": "task2",
-    "status": "pending",
-    "result": null
+    "status": "completed",
+    "result": {
+      "recognized_items": [
+        { "item_id": "item24", "confidence": 0.9 },
+        { "item_id": "item30", "confidence": 0.85 }
+      ]
+    }
   },
   {
     "image_id": "img1748710121497",
@@ -212,8 +252,13 @@
   {
     "image_id": "img1748710339521",
     "task_uuid": "task2",
-    "status": "pending",
-    "result": null
+    "status": "completed",
+    "result": {
+      "recognized_items": [
+        { "item_id": "item6", "confidence": 0.94 },
+        { "item_id": "item12", "confidence": 0.88 }
+      ]
+    }
   },
   {
     "image_id": "img1748710372829",
@@ -242,8 +287,13 @@
   {
     "image_id": "img1748710801693",
     "task_uuid": "task2",
-    "status": "pending",
-    "result": null
+    "status": "completed",
+    "result": {
+      "recognized_items": [
+        { "item_id": "item18", "confidence": 0.92 },
+        { "item_id": "item20", "confidence": 0.87 }
+      ]
+    }
   },
   {
     "image_id": "img1748710811850",
@@ -272,8 +322,13 @@
   {
     "image_id": "img1748710851725",
     "task_uuid": "task2",
-    "status": "pending",
-    "result": null
+    "status": "completed",
+    "result": {
+      "recognized_items": [
+        { "item_id": "item4", "confidence": 0.93 },
+        { "item_id": "item16", "confidence": 0.89 }
+      ]
+    }
   },
   {
     "image_id": "img1748710865074",
@@ -302,8 +357,13 @@
   {
     "image_id": "img1748711227481",
     "task_uuid": "task2",
-    "status": "pending",
-    "result": null
+    "status": "completed",
+    "result": {
+      "recognized_items": [
+        { "item_id": "item8", "confidence": 0.91 },
+        { "item_id": "item28", "confidence": 0.86 }
+      ]
+    }
   },
   {
     "image_id": "img1748711236996",
@@ -332,8 +392,13 @@
   {
     "image_id": "img1748711351696",
     "task_uuid": "task2",
-    "status": "pending",
-    "result": null
+    "status": "completed",
+    "result": {
+      "recognized_items": [
+        { "item_id": "item14", "confidence": 0.9 },
+        { "item_id": "item26", "confidence": 0.85 }
+      ]
+    }
   },
   {
     "image_id": "img1748711357363",
@@ -362,8 +427,13 @@
   {
     "image_id": "img1748711646023",
     "task_uuid": "task1",
-    "status": "pending",
-    "result": null
+    "status": "completed",
+    "result": {
+      "recognized_items": [
+        { "item_id": "item13", "confidence": 0.94 },
+        { "item_id": "item19", "confidence": 0.88 }
+      ]
+    }
   },
   {
     "image_id": "img1748712109547",
@@ -386,8 +456,13 @@
   {
     "image_id": "img1748712172736",
     "task_uuid": "task2",
-    "status": "pending",
-    "result": null
+    "status": "completed",
+    "result": {
+      "recognized_items": [
+        { "item_id": "item22", "confidence": 0.92 },
+        { "item_id": "item30", "confidence": 0.87 }
+      ]
+    }
   },
   {
     "image_id": "img1748712177123",
@@ -416,8 +491,13 @@
   {
     "image_id": "img1748712302405",
     "task_uuid": "task2",
-    "status": "pending",
-    "result": null
+    "status": "completed",
+    "result": {
+      "recognized_items": [
+        { "item_id": "item6", "confidence": 0.93 },
+        { "item_id": "item18", "confidence": 0.89 }
+      ]
+    }
   },
   {
     "image_id": "img1748712306156",
@@ -446,8 +526,13 @@
   {
     "image_id": "img1748712421113",
     "task_uuid": "task2",
-    "status": "pending",
-    "result": null
+    "status": "completed",
+    "result": {
+      "recognized_items": [
+        { "item_id": "item10", "confidence": 0.91 },
+        { "item_id": "item24", "confidence": 0.86 }
+      ]
+    }
   },
   {
     "image_id": "img1748712425961",
@@ -476,8 +561,13 @@
   {
     "image_id": "img1748712517841",
     "task_uuid": "task2",
-    "status": "pending",
-    "result": null
+    "status": "completed",
+    "result": {
+      "recognized_items": [
+        { "item_id": "item12", "confidence": 0.9 },
+        { "item_id": "item20", "confidence": 0.85 }
+      ]
+    }
   },
   {
     "image_id": "img1748712529718",

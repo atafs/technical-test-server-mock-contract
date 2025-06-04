@@ -20,23 +20,25 @@ let imageSubmissions = JSON.parse(
   fs.readFileSync(path.join(__dirname, "data/image-submissions.json"), "utf-8")
 );
 
-// Mock authentication middleware (simulates API key check)
+// Mock authentication middleware
 app.use((req: Request, res: Response, next: Function) => {
-  const authHeader = req.headers.authorization;
-  if (!authHeader || !authHeader.startsWith("Bearer ")) {
-    return res.status(401).json({ error: "Unauthorized" });
+  const authHeader = req.headers["x-api-key"];
+  console.log(`Received x-api-key: ${authHeader}`); // Debug log
+  if (!authHeader || authHeader !== "test-api-key") {
+    console.log("Authentication failed: Invalid or missing x-api-key");
+    return res.status(401).json({ detail: "Not authorized" });
   }
   next();
 });
 
 // GET /v2/catalog-items
 app.get("/v2/catalog-items", (req: Request, res: Response) => {
-  res.status(200).json(catalogItems);
+  res.status(200).json({ items: catalogItems });
 });
 
 // GET /v2/image-recognition/tasks
 app.get("/v2/image-recognition/tasks", (req: Request, res: Response) => {
-  res.status(200).json(irTasks);
+  res.status(200).json({ items: irTasks });
 });
 
 // POST /v2/image-recognition/tasks/{task_uuid}/images
