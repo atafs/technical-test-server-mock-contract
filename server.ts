@@ -99,8 +99,8 @@ app.post(
       }
     }, 5000); // 5-second delay to mimic processing
 
-    // Return array with image_id to match frontend expectation
-    res.status(200).json([imageId]);
+    // Return array with submission object to match frontend expectation
+    res.status(200).json([submission]);
   }
 );
 

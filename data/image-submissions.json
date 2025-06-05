@@ -718,5 +718,83 @@
     "task_uuid": "task1",
     "status": "pending",
     "result": null
+  },
+  {
+    "image_id": "img1749112613236",
+    "task_uuid": "task2",
+    "status": "pending",
+    "result": null
+  },
+  {
+    "image_id": "img1749112625598",
+    "task_uuid": "task1",
+    "status": "pending",
+    "result": null
+  },
+  {
+    "image_id": "img1749112656033",
+    "task_uuid": "task2",
+    "status": "pending",
+    "result": null
+  },
+  {
+    "image_id": "img1749112984380",
+    "task_uuid": "task1",
+    "status": "pending",
+    "result": null
+  },
+  {
+    "image_id": "img1749113014701",
+    "task_uuid": "task1",
+    "status": "pending",
+    "result": null
+  },
+  {
+    "image_id": "img1749113095494",
+    "task_uuid": "task1",
+    "status": "pending",
+    "result": null
+  },
+  {
+    "image_id": "img1749113270145",
+    "task_uuid": "task1",
+    "status": "pending",
+    "result": null
+  },
+  {
+    "image_id": "img1749113605362",
+    "task_uuid": "task1",
+    "status": "pending",
+    "result": null
+  },
+  {
+    "image_id": "img1749113699987",
+    "task_uuid": "task2",
+    "status": "pending",
+    "result": null
+  },
+  {
+    "image_id": "img1749113855381",
+    "task_uuid": "task1",
+    "status": "pending",
+    "result": null
+  },
+  {
+    "image_id": "img1749113977626",
+    "task_uuid": "task1",
+    "status": "pending",
+    "result": null
+  },
+  {
+    "image_id": "img1749114005087",
+    "task_uuid": "task1",
+    "status": "pending",
+    "result": null
+  },
+  {
+    "image_id": "img1749114013961",
+    "task_uuid": "task1",
+    "status": "pending",
+    "result": null
   }
 ]
